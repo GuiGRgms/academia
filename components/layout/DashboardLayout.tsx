@@ -39,7 +39,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="flex min-h-screen" style={{ background: 'var(--bg-primary)' }}>
+    <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
       {/* ── Sidebar (desktop) ─────────────────────────────────────────── */}
       <aside
         className="hidden lg:flex flex-col w-64 fixed top-0 left-0 bottom-0 border-r z-30"
@@ -184,7 +184,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
       </AnimatePresence>
 
       {/* ── Main content ──────────────────────────────────────────────── */}
-      <div className="flex-1 lg:ml-64 flex flex-col min-h-screen">
+      <div className="lg:ml-64 flex flex-col min-h-screen">
         {/* Top bar */}
         <header
           className="sticky top-0 z-20 px-4 lg:px-6 py-4 border-b flex items-center gap-4"
