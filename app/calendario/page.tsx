@@ -41,7 +41,7 @@ export default function CalendarioPage() {
     <DashboardLayout>
       <div className="space-y-6">
         <div>
-          <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>Calendário</h2>
+          <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>Calendário</h2>
           <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
             Acompanhe sua frequência de treinos
           </p>
@@ -58,7 +58,7 @@ export default function CalendarioPage() {
             >
               <ChevronLeft size={18} />
             </button>
-            <h3 className="text-lg font-black capitalize" style={{ color: 'var(--text-primary)' }}>
+            <h3 className="text-lg font-bold capitalize" style={{ color: 'var(--text-primary)' }}>
               {format(currentMonth, 'MMMM yyyy', { locale: ptBR })}
             </h3>
             <button
@@ -156,7 +156,7 @@ export default function CalendarioPage() {
               transition={{ delay: i * 0.1 }}
               className="card p-4 text-center"
             >
-              <div className="text-2xl font-black brand-text">{s.value}</div>
+              <div className="text-2xl font-bold brand-text">{s.value}</div>
               <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>{s.label}</div>
             </motion.div>
           ))}

@@ -128,7 +128,7 @@ function AddGoalModal({ onAdd, onClose }: { onAdd: (goal: Omit<Goal, 'id' | 'use
         className="card p-6 w-full max-w-md"
       >
         <div className="flex items-center justify-between mb-6">
-          <h3 className="text-lg font-black" style={{ color: 'var(--text-primary)' }}>Nova Meta</h3>
+          <h3 className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>Nova Meta</h3>
           <button onClick={onClose} style={{ color: 'var(--text-muted)' }}><X size={20} /></button>
         </div>
 
@@ -234,7 +234,7 @@ export default function MetasPage() {
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>Minhas Metas</h2>
+            <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>Minhas Metas</h2>
             <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
               {active.length} ativas · {completed.length} concluídas
             </p>

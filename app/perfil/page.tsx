@@ -43,7 +43,7 @@ export default function PerfilPage() {
     <DashboardLayout>
       <div className="max-w-3xl mx-auto space-y-6">
         <div>
-          <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>Meu Perfil</h2>
+          <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>Meu Perfil</h2>
           <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
             Gerencie suas informações e configurações
           </p>
@@ -187,7 +187,7 @@ export default function PerfilPage() {
 
           <div className="space-y-6">
             <motion.div layout className="card p-6 flex flex-col justify-center items-center text-center">
-              <div className="text-4xl font-black brand-text mb-1">{imc}</div>
+              <div className="text-4xl font-bold brand-text mb-1">{imc}</div>
               <div className="text-sm font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>Índice de Massa Corporal</div>
               <p className="text-xs max-w-[200px]" style={{ color: 'var(--text-secondary)' }}>
                 {Number(imc) < 18.5 ? 'Abaixo do peso' : Number(imc) < 25 ? 'Peso normal' : Number(imc) < 30 ? 'Sobrepeso' : 'Obesidade'}

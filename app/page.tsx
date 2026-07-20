@@ -69,7 +69,7 @@ export default function LandingPage() {
           <div className="w-9 h-9 brand-gradient rounded-xl flex items-center justify-center glow">
             <Dumbbell size={18} className="text-white" />
           </div>
-          <span className="text-xl font-black brand-text">FitMaster</span>
+          <span className="text-xl font-bold brand-text">FitMaster</span>
         </motion.div>
 
         <motion.div
@@ -139,7 +139,7 @@ export default function LandingPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-black leading-none mb-6"
+            className="text-3xl md:text-5xl font-bold leading-tight mb-6"
           >
             <span style={{ color: 'var(--text-primary)' }}>Supere Seus</span>
             <br />
@@ -218,7 +218,7 @@ export default function LandingPage() {
                 transition={{ delay: i * 0.1 }}
                 className="card p-6 text-center"
               >
-                <div className="text-3xl md:text-4xl font-black brand-text mb-2">
+                <div className="text-2xl md:text-3xl font-bold brand-text mb-2">
                   <AnimatedCounter end={stat.value} suffix={stat.suffix} />
                 </div>
                 <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>{stat.label}</div>
@@ -237,7 +237,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-2xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
               Tudo que você precisa para
               <span className="brand-text"> evoluir</span>
             </h2>
@@ -277,7 +277,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-2xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
               6 grupos musculares,
               <span className="brand-text"> 32 exercícios</span>
             </h2>
@@ -321,7 +321,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-2xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
               O que nossos
               <span className="brand-text"> alunos</span> dizem
             </h2>
@@ -366,7 +366,7 @@ export default function LandingPage() {
             <div className="absolute inset-0 opacity-10" style={{ background: 'radial-gradient(ellipse at center, #dc2626 0%, transparent 70%)' }} />
             <div className="relative z-10">
               <div className="text-4xl mb-4">🏆</div>
-              <h2 className="text-2xl md:text-3xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
                 Pronto para transformar seu corpo?
               </h2>
               <p className="mb-8" style={{ color: 'var(--text-secondary)' }}>
@@ -377,7 +377,7 @@ export default function LandingPage() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => router.push('/login')}
-                className="px-10 py-4 text-lg font-black rounded-2xl brand-gradient text-white glow-lg"
+                className="px-10 py-4 text-lg font-bold rounded-2xl brand-gradient text-white glow-lg"
               >
                 🔥 Começar Agora — É Grátis
               </motion.button>
@@ -392,7 +392,7 @@ export default function LandingPage() {
           <div className="w-7 h-7 brand-gradient rounded-lg flex items-center justify-center">
             <Dumbbell size={14} className="text-white" />
           </div>
-          <span className="font-black brand-text">FitMaster</span>
+          <span className="font-bold brand-text">FitMaster</span>
         </div>
         <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
           © 2024 FitMaster. Transformando vidas através do fitness.

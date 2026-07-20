@@ -53,7 +53,7 @@ function RestTimer({ seconds, onClose }: { seconds: number; onClose: () => void 
             />
           </svg>
           <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-4xl font-black" style={{ color: remaining <= 5 ? '#ef4444' : 'var(--text-primary)' }}>
+            <span className="text-4xl font-bold" style={{ color: remaining <= 5 ? '#ef4444' : 'var(--text-primary)' }}>
               {m > 0 ? `${m}:${s.toString().padStart(2, '0')}` : `${remaining}s`}
             </span>
           </div>
@@ -127,7 +127,7 @@ function ExerciseModal({
         >
           <div className="flex items-start justify-between">
             <div>
-              <h2 className="text-2xl font-black mb-1" style={{ color: 'var(--text-primary)' }}>
+              <h2 className="text-2xl font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
                 {exercise.name}
               </h2>
               <div className="flex flex-wrap gap-2">
@@ -173,7 +173,7 @@ function ExerciseModal({
                     onClick={() => param.setter(Math.max(param.min, param.value - 1))}
                     className="w-6 h-6 rounded-lg brand-gradient text-white text-sm font-bold flex items-center justify-center"
                   >-</button>
-                  <span className="text-lg font-black w-8 text-center" style={{ color: 'var(--text-primary)' }}>{param.value}</span>
+                  <span className="text-lg font-bold w-8 text-center" style={{ color: 'var(--text-primary)' }}>{param.value}</span>
                   <button
                     onClick={() => param.setter(Math.min(param.max, param.value + 1))}
                     className="w-6 h-6 rounded-lg brand-gradient text-white text-sm font-bold flex items-center justify-center"
@@ -188,7 +188,7 @@ function ExerciseModal({
                   onClick={() => setWeight(Math.max(0, weight - 2.5))}
                   className="w-6 h-6 rounded-lg brand-gradient text-white text-sm font-bold flex items-center justify-center"
                 >-</button>
-                <span className="text-lg font-black w-10 text-center" style={{ color: 'var(--text-primary)' }}>{weight}</span>
+                <span className="text-lg font-bold w-10 text-center" style={{ color: 'var(--text-primary)' }}>{weight}</span>
                 <button
                   onClick={() => setWeight(weight + 2.5)}
                   className="w-6 h-6 rounded-lg brand-gradient text-white text-sm font-bold flex items-center justify-center"
@@ -339,7 +339,7 @@ export default function CategoryPage() {
           <div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">{category.emoji}</span>
-              <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>{category.name}</h2>
+              <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>{category.name}</h2>
             </div>
             <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{category.description}</p>
           </div>

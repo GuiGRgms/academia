@@ -75,7 +75,7 @@ export default function TreinosPage() {
         {!query.trim() && (
           <>
             <div>
-              <h2 className="text-xl font-black mb-1" style={{ color: 'var(--text-primary)' }}>Grupos Musculares</h2>
+              <h2 className="text-xl font-bold mb-1" style={{ color: 'var(--text-primary)' }}>Grupos Musculares</h2>
               <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Escolha um grupo para ver os exercícios</p>
             </div>
 
@@ -98,7 +98,7 @@ export default function TreinosPage() {
 
                     <div className="relative">
                       <div className="text-5xl mb-4">{cat.emoji}</div>
-                      <h3 className="text-xl font-black mb-1" style={{ color: 'var(--text-primary)' }}>
+                      <h3 className="text-xl font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
                         {cat.name}
                       </h3>
                       <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>

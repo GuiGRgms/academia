@@ -28,7 +28,7 @@ export default function ConquistasPage() {
     <DashboardLayout>
       <div className="space-y-6">
         <div>
-          <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>Conquistas</h2>
+          <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>Conquistas</h2>
           <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
             {unlocked.length} de {achievements.length} desbloqueadas
           </p>

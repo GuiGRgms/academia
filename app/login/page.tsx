@@ -80,7 +80,7 @@ export default function LoginPage() {
             <div className="w-16 h-16 brand-gradient rounded-2xl flex items-center justify-center mx-auto mb-4 glow">
               <Dumbbell size={28} className="text-white" />
             </div>
-            <h1 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>
+            <h1 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>
               Bem-vindo ao <span className="brand-text">FitMaster</span>
             </h1>
             <p className="mt-1 text-sm" style={{ color: 'var(--text-secondary)' }}>

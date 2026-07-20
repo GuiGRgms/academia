@@ -26,7 +26,7 @@ function StatCard({ icon: Icon, label, value, sub, color }: {
         <Icon size={20} className="text-white" />
       </div>
       <div>
-        <div className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>{value}</div>
+        <div className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>{value}</div>
         <div className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>{label}</div>
         {sub && <div className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{sub}</div>}
       </div>
@@ -61,7 +61,7 @@ export default function DashboardPage() {
       <div className="space-y-6">
         {/* ── Greeting ───────────────────────────────────────────────── */}
         <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
-          <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>
             Olá, {user?.name?.split(' ')[0]} 👋
           </h2>
           <p className="text-sm mt-1 capitalize" style={{ color: 'var(--text-secondary)' }}>
@@ -90,7 +90,7 @@ export default function DashboardPage() {
                   <s.icon size={18} className="text-white" />
                 </div>
                 <div>
-                  <div className="text-xl font-black" style={{ color: 'var(--text-primary)' }}>{s.value}</div>
+                  <div className="text-xl font-bold" style={{ color: 'var(--text-primary)' }}>{s.value}</div>
                   <div className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>{s.label}</div>
                   <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{s.sub}</div>
                 </div>
@@ -118,7 +118,7 @@ export default function DashboardPage() {
                     <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--brand)' }}>
                       Treino do Dia
                     </span>
-                    <h3 className="text-xl font-black mt-1" style={{ color: 'var(--text-primary)' }}>
+                    <h3 className="text-xl font-bold mt-1" style={{ color: 'var(--text-primary)' }}>
                       {todayWorkout.emoji} {todayWorkout.category}
                     </h3>
                   </div>

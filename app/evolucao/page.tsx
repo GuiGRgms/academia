@@ -58,7 +58,7 @@ export default function EvolucaoPage() {
     <DashboardLayout>
       <div className="space-y-6">
         <div>
-          <h2 className="text-2xl font-black" style={{ color: 'var(--text-primary)' }}>Evolução</h2>
+          <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>Evolução</h2>
           <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
             Acompanhe sua transformação ao longo do tempo
           </p>
@@ -92,7 +92,7 @@ export default function EvolucaoPage() {
                   {item.trend > 0 ? '+' : ''}{item.trend}
                 </span>
               </div>
-              <div className="text-xl font-black" style={{ color: 'var(--text-primary)' }}>{item.value}</div>
+              <div className="text-xl font-bold" style={{ color: 'var(--text-primary)' }}>{item.value}</div>
               <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>{item.label}</div>
               <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{item.trendLabel}</div>
             </motion.div>
