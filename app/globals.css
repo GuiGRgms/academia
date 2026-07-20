@@ -40,7 +40,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 85%;
+  zoom: 0.8;
 }
 
 body {
