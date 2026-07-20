@@ -139,7 +139,7 @@ export default function LandingPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-black leading-none mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl font-black leading-none mb-6"
           >
             <span style={{ color: 'var(--text-primary)' }}>Supere Seus</span>
             <br />
@@ -237,7 +237,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-5xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-2xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
               Tudo que você precisa para
               <span className="brand-text"> evoluir</span>
             </h2>
@@ -277,7 +277,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-5xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-2xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
               6 grupos musculares,
               <span className="brand-text"> 32 exercícios</span>
             </h2>
@@ -321,7 +321,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-5xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+            <h2 className="text-2xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
               O que nossos
               <span className="brand-text"> alunos</span> dizem
             </h2>
@@ -365,8 +365,8 @@ export default function LandingPage() {
           >
             <div className="absolute inset-0 opacity-10" style={{ background: 'radial-gradient(ellipse at center, #dc2626 0%, transparent 70%)' }} />
             <div className="relative z-10">
-              <div className="text-5xl mb-4">🏆</div>
-              <h2 className="text-3xl md:text-4xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
+              <div className="text-4xl mb-4">🏆</div>
+              <h2 className="text-2xl md:text-3xl font-black mb-4" style={{ color: 'var(--text-primary)' }}>
                 Pronto para transformar seu corpo?
               </h2>
               <p className="mb-8" style={{ color: 'var(--text-secondary)' }}>
